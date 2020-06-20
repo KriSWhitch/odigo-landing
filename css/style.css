@@ -1,0 +1,134 @@
+*:focus {
+    outline: none; 
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+
+
+
+.hero {
+    height: 962px;
+    width: 100%;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(53, 66, 103, 0.0001) 0%, #151824 95.04%), url(../img/background-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 83.23%;
+}
+
+.wrapper {
+    width: 1262px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.site-logo {
+    margin-right: auto;
+    margin-left: 100px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation-link {
+    list-style: none;
+    margin-right: 82px;
+}
+
+.navigation-link:last-child{
+    margin-right: 100px;
+}
+
+.navigation-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.support {
+    padding-top: 120px;
+    padding-bottom: 150px;
+}
+
+.support-title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    max-width: 619px;
+    margin-bottom: 22px;
+
+}
+
+.support-subtitle {
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    max-width: 546px;
+    margin-bottom: 54px;
+}
+
+.support-search {
+    display: flex;
+    align-items: center;
+}
+
+.support-search-input {
+    border: none;
+    background-color: transparent;
+    width: 297px;
+    border-bottom: 2px solid #BFC0C5;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    background-image: url(../img/oval.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 43px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    margin-right: 60px;
+}
+
+.support-search-input::placeholder {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.support-btn {
+    border: none;
+    padding: 22.5px 47.5px;
+    background: #1B7DFF;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+}
