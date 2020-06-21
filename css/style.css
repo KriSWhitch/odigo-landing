@@ -199,13 +199,24 @@ body {
 }
 
 .inspiration-title {
+    position:relative;
+    display:inline-block;
     font-weight: 500;
     font-size: 35px;
     line-height: 42px;
     color: #102746;
     padding-bottom: 7px;
-    border-bottom: 2px solid #006DFE;
     margin-right: auto;
+}
+
+.inspiration-title:after{
+    content:"";
+    position: absolute;
+    width:60%;
+    height:3px;
+    background:#006DFE;
+    top: 100%;
+    right: 40%;
 }
 
 .inspiration-link{
@@ -301,4 +312,73 @@ body {
     background-size: cover;
 }
 
+.prefecture {
+    padding-top: 50px;
+    padding-bottom: 139px;
+}
 
+.prefecture-information {
+    margin-left: 108px;
+    max-width: 519px;
+}
+
+.prefecture-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #102746;
+    margin-bottom: 85px;
+}
+
+.prefecture-subtitle {
+    font-size: 16px;
+    line-height: 24px;
+    color: #102746;
+    margin-bottom: 58px;
+}
+
+.prefecture-link {
+    font-size: 16px;
+    line-height: 24px;
+    color: #006DFE;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.prefecture-link::after {
+    content: url(../img/arrow.svg);
+    margin-left: 26px;
+}
+
+.prefecture-in-focus {
+    display: flex;
+    margin-bottom: 77px;
+}
+
+.prefecture-in-focus img {
+    max-width: 597px;
+    max-height: 354px;
+}
+
+.prefecture-neighborhood {
+    display: flex;
+}
+
+.prefecture-neighborhood img {
+    max-width: 597px;
+    max-height: 354px;
+}
+
+.prefecture-neighborhood .prefecture-information {
+    margin-right: 108px;
+}
+
+.prefecture-neighborhood .prefecture-title {
+    max-width: 357px;
+
+}
+
+
+.prefecture-neighborhood .prefecture-subtitle {
+    margin-bottom: 90px;
+}
