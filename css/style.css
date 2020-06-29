@@ -127,6 +127,11 @@ body {
     align-items: center;
 }
 
+.support-search-mobile {
+    display: none;
+    flex-direction: column;
+}
+
 .support-search-input {
     border: none;
     background-color: transparent;
@@ -161,7 +166,7 @@ body {
     line-height: 29px;
     color: #FFFFFF;
     text-transform: uppercase;
-
+    cursor: pointer;
 }
 
 .benefits {
@@ -628,7 +633,7 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        background: #5671F6;
+        background: #0E1D28;
     }
 
 
@@ -655,12 +660,51 @@ body {
         max-width: 100%;
     }
 
+    .navigation {
+        margin-top: 20%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigation-link {
+        margin-bottom: 20px;
+        flex-basis: 50%;
+        margin-right: 0;
+    }
+
+    .navigation-link:last-child {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .navigation-link a {
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
     .support {
         margin: 0 30px;
         display: flex;
         flex-direction: column;
     }
 
+    .support-search {
+        display: none;
+    }
+
+    .support-search-mobile {
+        margin-bottom: 10%;
+    }
+
+    .support-search-input {
+        margin-bottom: 40px;
+    }
+
+    .support-btn {
+        width: 297px;
+    }
+    
     .benefits {
         height: 100%;
         position: static;

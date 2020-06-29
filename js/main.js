@@ -4,6 +4,7 @@ $(document).ready(function () {
     const mMenu = $(".m-menu");
     mMenuBtn.on("click", function(){
         mMenu.toggleClass("active");
+        $(".support-search-mobile").css("display", "flex");
         $("body").toggleClass("no-scroll");
         // scroll-fix for IPhone
         $(document).on("touchmove",function(event){
